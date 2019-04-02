@@ -11,7 +11,7 @@ Ext.define("portfolio-committed-vs-delivered", {
     stateful: true,
     RELEASE_SCOPE_MSG: 'This app is designed for an Release scoped dashboard.  Please update the current dashboard to have an Release scope.',
     DATE_MISSING_MSG:  'Please select a commit date and a delivered date.',
-    MAX_INITIATIVES: 40,
+    MAX_INITIATIVES: 1000,
     integrationHeaders : {
         name : "portfolio-committed-vs-delivered"
     },
